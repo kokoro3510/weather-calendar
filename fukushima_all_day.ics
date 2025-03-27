@@ -3,57 +3,62 @@ PRODID:masuipeo weather - iCal weather
 VERSION:2.0
 METHOD:PUBLISH
 CALSCALE:GREGORIAN
-X-WR-CALNAME:iCal週間天気予報(福島)
-X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
+X-WR-CALNAME:iCalé±éå¤©æ°äºå ±(ç¦å³¶)
+X-WR-CALDESC:æ°è±¡åºãé
+ä¿¡ããé±éå¤©æ°äºå ±ã®iCalãã©ã¼ããã
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250328
-DESCRIPTION:天気はくもり一時雨でしょう。
+DESCRIPTION:å¤©æ°ã¯ãããä¸æé¨ã§ãããã
 DTSTART;VALUE=DATE:20250328
 DTEND;VALUE=DATE:20250329
-SUMMARY:くもり一時雨
+SUMMARY:ãããä¸æé¨
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250329
-DESCRIPTION:天気はくもり一時雨、降水確率は60%、最高気温は11℃、最低気温は6℃でしょう。
+DESCRIPTION:å¤©æ°ã¯ãããä¸æé¨ãéæ°´ç¢ºçã¯60%ãæé«æ°æ¸©ã¯11âãæä½æ°æ¸©ã¯6âã§ãããã
 DTSTART;VALUE=DATE:20250329
 DTEND;VALUE=DATE:20250330
-SUMMARY:くもり一時雨 11℃/6℃
+SUMMARY:ãããä¸æé¨ 11â/6â
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250330
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は12℃、最低気温は4℃でしょう。
+DESCRIPTION:å¤©æ°ã¯ãããæã
+æ´ããéæ°´ç¢ºçã¯30%ãæé«æ°æ¸©ã¯12âãæä½æ°æ¸©ã¯4âã§ãããã
 DTSTART;VALUE=DATE:20250330
 DTEND;VALUE=DATE:20250331
-SUMMARY:くもり時々晴れ 12℃/4℃
+SUMMARY:ãããæã
+æ´ã 12â/4â
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250331
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は11℃、最低気温は2℃でしょう。
+DESCRIPTION:å¤©æ°ã¯æ´ãæã
+ããããéæ°´ç¢ºçã¯20%ãæé«æ°æ¸©ã¯11âãæä½æ°æ¸©ã¯2âã§ãããã
 DTSTART;VALUE=DATE:20250331
 DTEND;VALUE=DATE:20250401
-SUMMARY:晴れ時々くもり 11℃/2℃
+SUMMARY:æ´ãæã
+ããã 11â/2â
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250401
-DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は12℃、最低気温は3℃でしょう。
+DESCRIPTION:å¤©æ°ã¯ãããä¸æé¨ãéæ°´ç¢ºçã¯50%ãæé«æ°æ¸©ã¯12âãæä½æ°æ¸©ã¯3âã§ãããã
 DTSTART;VALUE=DATE:20250401
 DTEND;VALUE=DATE:20250402
-SUMMARY:くもり一時雨 12℃/3℃
+SUMMARY:ãããä¸æé¨ 12â/3â
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250402
-DESCRIPTION:天気はくもり一時雨、降水確率は60%、最高気温は11℃、最低気温は5℃でしょう。
+DESCRIPTION:å¤©æ°ã¯ãããä¸æé¨ãéæ°´ç¢ºçã¯60%ãæé«æ°æ¸©ã¯11âãæä½æ°æ¸©ã¯5âã§ãããã
 DTSTART;VALUE=DATE:20250402
 DTEND;VALUE=DATE:20250403
-SUMMARY:くもり一時雨 11℃/5℃
+SUMMARY:ãããä¸æé¨ 11â/5â
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250403
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は15℃、最低気温は7℃でしょう。
+DESCRIPTION:å¤©æ°ã¯ããããéæ°´ç¢ºçã¯40%ãæé«æ°æ¸©ã¯15âãæä½æ°æ¸©ã¯7âã§ãããã
 DTSTART;VALUE=DATE:20250403
 DTEND;VALUE=DATE:20250404
-SUMMARY:くもり 15℃/7℃
+SUMMARY:ããã 15â/7â
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
