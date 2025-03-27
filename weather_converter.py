@@ -30,7 +30,7 @@ def update_ics_file():
     response = requests.get(SOURCE_URL)
     if response.status_code == 200:
         converted = convert_to_all_day_ics(response.text)
-        with open(ICS_PATH, "w", encoding="utf-8") as f:
+        with open(ICS_PATH, "w", encoding="utf-8-sig") as f:
             f.write(converted)
         print("✅ .ics ファイルを更新しました")
     else:
