@@ -34,7 +34,11 @@ jobs:
       - name: Commit and push the updated .ics file
         run: |
           git add fukushima_all_day.ics
-          git commit -m "⛅ Updated weather data"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "⛅ Updated weather data"
+            git push
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
