@@ -1,9 +1,9 @@
+import os
 import requests
 import subprocess
-import os
 
-# Gitリポジトリのディレクトリ（あなたの環境に合わせて！）
-REPO_DIR = "C:/Users/owner/weather-calendar"
+# Gitリポジトリのディレクトリ（GitHub Actions用）
+REPO_DIR = os.getcwd()  # GitHub Actions環境での作業ディレクトリ
 
 # .icsファイルの名前
 ICS_FILENAME = "fukushima_all_day.ics"
