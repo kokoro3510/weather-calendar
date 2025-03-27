@@ -22,17 +22,16 @@ jobs:
         run: |
           pip install requests
 
-      - name: Run the weather update script
+      - name: Configure Git identity
+        run: |
+          git config --global user.name "kokoro3510"
+          git config --global user.email "yanguadaruta@gmail.com"
+
+      - name: Run the weather script
         run: |
           python weather_converter.py
 
-      - name: Check for changes
-        id: git_status
-        run: |
-          git diff --exit-code || echo "Changes detected"
-
       - name: Commit and push the updated .ics file
-        if: steps.git_status.outputs.status != 'nothing to commit, working tree clean'
         run: |
           git add fukushima_all_day.ics
           git commit -m "⛅ Updated weather data"
