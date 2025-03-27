@@ -1,0 +1,34 @@
+name: Weather ICS Auto Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 毎日午前12時に実行（cron形式）
+
+jobs:
+  update-weather-ics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run the weather script
+        run: |
+          python weather_converter.py
+
+      - name: Commit and push the updated .ics file
+        run: |
+          git add fukushima_all_day.ics
+          git commit -m "⛅ Updated weather data"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
