@@ -31,7 +31,13 @@ jobs:
         run: |
           python weather_converter.py
 
+      - name: Check for changes
+        id: git_status
+        run: |
+          git status
+
       - name: Commit and push the updated .ics file
+        if: steps.git_status.outputs.status != 'nothing to commit, working tree clean'
         run: |
           git add fukushima_all_day.ics
           git commit -m "⛅ Updated weather data"
