@@ -13,11 +13,6 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
 
-      - name: Set up Git config
-        run: |
-          git config --global user.name "kokoro3510"
-          git config --global user.email "yanguadaruta@gmail.com"  # 自分のGitHubに登録したメールアドレスに変更しました
-
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
