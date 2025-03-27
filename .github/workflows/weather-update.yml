@@ -34,7 +34,7 @@ jobs:
       - name: Check for changes
         id: git_status
         run: |
-          git status
+          git diff --exit-code || echo "Changes detected"
 
       - name: Commit and push the updated .ics file
         if: steps.git_status.outputs.status != 'nothing to commit, working tree clean'
