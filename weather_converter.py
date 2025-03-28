@@ -1,6 +1,7 @@
 import os
 import requests
 import subprocess
+import chardet  # 🔍 文字コード自動判定ライブラリ
 
 # Gitリポジトリのディレクトリ（GitHub Actions用）
 REPO_DIR = os.getcwd()
@@ -50,14 +51,19 @@ def convert_to_all_day_ics(data):
 def update_ics_file():
     response = requests.get(SOURCE_URL)
     if response.status_code == 200:
-        # 🔧 日本語文字化け対策：Shift_JISで明示的にデコード
-        decoded_text = response.content.decode("shift_jis", errors="replace")
+        # 🔍 文字コードを自動判定
+        detected = chardet.detect(response.content)
+        encoding = detected['encoding'] or 'utf-8'
+        print(f"📌 推定文字コード: {encoding}")
+
+        # 自動判定された文字コードでデコード
+        decoded_text = response.content.decode(encoding, errors="replace")
 
         converted = convert_to_all_day_ics(decoded_text)
         print("📄 生成された.icsファイルの中身:\n")
         print(converted)
 
-        # UTF-8で保存（BOMなし）
+        # UTF-8（BOMなし）で保存
         with open(ICS_PATH, "w", encoding="utf-8") as f:
             f.write(converted)
 
@@ -68,7 +74,7 @@ def update_ics_file():
 def git_push():
     try:
         subprocess.run(["git", "add", ICS_FILENAME], cwd=REPO_DIR, check=True)
-        subprocess.run(["git", "commit", "-m", "🌤 Shift_JIS対応＋絵文字入り完全版"], cwd=REPO_DIR, check=True)
+        subprocess.run(["git", "commit", "-m", "🌤 文字コード自動判定＆絵文字入り完全対応"], cwd=REPO_DIR, check=True)
         subprocess.run(["git", "push"], cwd=REPO_DIR, check=True)
         print("✅ GitHubへ自動push完了")
     except subprocess.CalledProcessError:
