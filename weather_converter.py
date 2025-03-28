@@ -40,6 +40,7 @@ def convert_to_all_day_ics(data):
                     icon = emoji
                     break
             new_summary = f"{icon} {summary}"
+            print("🔍 SUMMARY変換:", new_summary)  # ← ここで確認できる！
             new_lines.append(f"SUMMARY:{new_summary}")
         else:
             new_lines.append(line)
@@ -49,6 +50,8 @@ def update_ics_file():
     response = requests.get(SOURCE_URL)
     if response.status_code == 200:
         converted = convert_to_all_day_ics(response.text)
+        print("📄 生成された.icsファイルの中身:\n")
+        print(converted)  # ← ここで全体確認！
         with open(ICS_PATH, "w", encoding="utf-8-sig") as f:
             f.write(converted)
         print("✅ .ics ファイルを更新しました")
@@ -58,7 +61,7 @@ def update_ics_file():
 def git_push():
     try:
         subprocess.run(["git", "add", ICS_FILENAME], cwd=REPO_DIR, check=True)
-        subprocess.run(["git", "commit", "-m", "🌤 天気アイコン付きで自動更新"], cwd=REPO_DIR, check=True)
+        subprocess.run(["git", "commit", "-m", "🔍 .ics絵文字反映デバッグ中"], cwd=REPO_DIR, check=True)
         subprocess.run(["git", "push"], cwd=REPO_DIR, check=True)
         print("✅ GitHubへ自動push完了")
     except subprocess.CalledProcessError:
