@@ -3,19 +3,20 @@ import requests
 import subprocess
 
 # Gitリポジトリのディレクトリ（GitHub Actions用）
-REPO_DIR = os.getcwd()  # GitHub Actions環境での作業ディレクトリ
+REPO_DIR = os.getcwd()
 
 # .icsファイルの名前
 ICS_FILENAME = "fukushima_all_day.ics"
 ICS_PATH = os.path.join(REPO_DIR, ICS_FILENAME)
 
-# 天気予報元URL
+# 天気予報元URL（masuipeo 週間天気予報）
 SOURCE_URL = "https://weather.masuipeo.com/fukushima.ics"
 
 def convert_to_all_day_ics(data):
     weather_icons = {
         "晴": "☀",
         "曇": "☁",
+        "くもり": "☁",  # 漢字でもひらがなでも対応！
         "雨": "☔",
         "雪": "❄",
         "雷": "⚡",
@@ -34,11 +35,12 @@ def convert_to_all_day_ics(data):
         elif line.startswith("SUMMARY:"):
             summary = line[8:]
             icon = ""
-            for key in weather_icons:
+            for key, emoji in weather_icons.items():
                 if key in summary:
-                    icon = weather_icons[key]
+                    icon = emoji
                     break
-            new_lines.append(f"SUMMARY:{icon} {summary}")
+            new_summary = f"{icon} {summary}"
+            new_lines.append(f"SUMMARY:{new_summary}")
         else:
             new_lines.append(line)
     return "\n".join(new_lines)
@@ -56,11 +58,11 @@ def update_ics_file():
 def git_push():
     try:
         subprocess.run(["git", "add", ICS_FILENAME], cwd=REPO_DIR, check=True)
-        subprocess.run(["git", "commit", "-m", "⛅ 天気を自動更新"], cwd=REPO_DIR, check=True)
+        subprocess.run(["git", "commit", "-m", "🌤 天気アイコン付きで自動更新"], cwd=REPO_DIR, check=True)
         subprocess.run(["git", "push"], cwd=REPO_DIR, check=True)
         print("✅ GitHubへ自動push完了")
     except subprocess.CalledProcessError:
-        print("⚠ Git push に失敗しました（コミットなし or 設定ミス？）")
+        print("⚠ Git push に失敗しました（コミットなし or 既に最新）")
 
 if __name__ == "__main__":
     update_ics_file()
