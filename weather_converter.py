@@ -1,21 +1,24 @@
 import os
 import requests
 import subprocess
-import chardet  # 🔍 文字コード自動判定ライブラリ
+import chardet
+import datetime
 
-# Gitリポジトリのディレクトリ（GitHub Actions用）
+# GitHub Actions用ディレクトリ
 REPO_DIR = os.getcwd()
-
-# .icsファイルの名前
 ICS_FILENAME = "fukushima_all_day.ics"
 ICS_PATH = os.path.join(REPO_DIR, ICS_FILENAME)
 
-# 天気予報元URL（masuipeo 週間天気予報）
+# 週間天気予報の元データURL
 SOURCE_URL = "https://weather.masuipeo.com/fukushima.ics"
+
+def detect_encoding(byte_data):
+    result = chardet.detect(byte_data)
+    print(f"📌 推定文字コード: {result['encoding']}")
+    return result['encoding'] if result['encoding'] else 'utf-8'
 
 def convert_to_all_day_ics(data):
     weather_icons = {
-        "晴れ": "☀",
         "晴": "☀",
         "曇": "☁",
         "くもり": "☁",
@@ -27,6 +30,7 @@ def convert_to_all_day_ics(data):
 
     lines = data.splitlines()
     new_lines = []
+
     for line in lines:
         if line.startswith("DTSTART:"):
             date = line[8:16]
@@ -42,29 +46,26 @@ def convert_to_all_day_ics(data):
                     icon = emoji
                     break
             new_summary = f"{icon} {summary}"
-            print("🔍 SUMMARY変換:", new_summary)
+            print(f"🔍 SUMMARY変換: {new_summary}")
             new_lines.append(f"SUMMARY:{new_summary}")
         else:
             new_lines.append(line)
+
+    # ✅ タイムスタンプ追加で差分確保
+    timestamp = datetime.datetime.now().isoformat()
+    new_lines.append(f"X-GENERATED:{timestamp}")
+
     return "\n".join(new_lines)
 
 def update_ics_file():
     response = requests.get(SOURCE_URL)
     if response.status_code == 200:
-        # 🔍 文字コードを自動判定
-        detected = chardet.detect(response.content)
-        encoding = detected['encoding'] or 'utf-8'
-        print(f"📌 推定文字コード: {encoding}")
+        byte_data = response.content
+        encoding = detect_encoding(byte_data)
+        text = byte_data.decode(encoding)
 
-        # 自動判定された文字コードでデコード
-        decoded_text = response.content.decode(encoding, errors="replace")
-
-        converted = convert_to_all_day_ics(decoded_text)
-        print("📄 生成された.icsファイルの中身:\n")
-        print(converted)
-
-        # UTF-8（BOMなし）で保存
-        with open(ICS_PATH, "w", encoding="utf-8") as f:
+        converted = convert_to_all_day_ics(text)
+        with open(ICS_PATH, "w", encoding="utf-8-sig") as f:
             f.write(converted)
 
         print("✅ .ics ファイルを更新しました")
@@ -74,7 +75,7 @@ def update_ics_file():
 def git_push():
     try:
         subprocess.run(["git", "add", ICS_FILENAME], cwd=REPO_DIR, check=True)
-        subprocess.run(["git", "commit", "-m", "🌤 文字コード自動判定＆絵文字入り完全対応"], cwd=REPO_DIR, check=True)
+        subprocess.run(["git", "commit", "-m", "🌤 文字コード自動判定＋絵文字＋タイムスタンプ付き"], cwd=REPO_DIR, check=True)
         subprocess.run(["git", "push"], cwd=REPO_DIR, check=True)
         print("✅ GitHubへ自動push完了")
     except subprocess.CalledProcessError:
