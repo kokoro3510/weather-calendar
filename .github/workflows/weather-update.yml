@@ -2,8 +2,9 @@ name: Weather ICS Auto Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 毎日0時に実行（日本時間9時）
-  workflow_dispatch:  # 手動実行もOK
+    - cron: '0 0 * * *'   # 毎日0時（日本時間9時）に実行
+    - cron: '0 9 * * *'   # 毎日9時（日本時間18時）に実行
+  workflow_dispatch:       # 手動実行もOK
 
 jobs:
   update-weather-ics:
@@ -20,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests chardet  # ← ✅ chardetをここに追加！
+          pip install requests chardet  # chardetもインストール
 
       - name: Configure Git identity
         run: |
