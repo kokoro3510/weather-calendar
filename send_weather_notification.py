@@ -1,12 +1,15 @@
 import os
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 # === Webhook URL（GitHub Secretsから取得）===
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 ICS_FILE_PATH = "fukushima_all_day.ics"
 
-# ✅ 明日の天気だけを正確に抽出する関数（target_date一致ブロックだけ抽出）
+# ✅ JST（日本時間）のタイムゾーンを定義
+JST = timezone(timedelta(hours=9))
+
+# ✅ 明日または今日の天気を .ics から抽出（JST対応）
 def get_weather_summary_from_ics(file_path, days_ahead=1):
     try:
         with open(file_path, encoding='utf-8') as f:
@@ -15,7 +18,10 @@ def get_weather_summary_from_ics(file_path, days_ahead=1):
         print("[エラー] .icsファイルが見つかりませんでした:", file_path)
         return None
 
-    target_date = (datetime.now() + timedelta(days=days_ahead)).strftime('%Y%m%d')
+    # ⏰ 日本時間での target_date を取得！
+    jst_now = datetime.now(JST)
+    target_date = (jst_now + timedelta(days=days_ahead)).strftime('%Y%m%d')
+
     summary = None
     inside_event = False
     matched_event = False
@@ -40,7 +46,7 @@ def get_weather_summary_from_ics(file_path, days_ahead=1):
 
     return f"{'明日' if days_ahead == 1 else '今日'}の天気情報が見つかりませんでした"
 
-# ✅ LINE WORKS Webhook に送信する関数
+# ✅ LINE WORKS Webhook に送信
 def send_to_lineworks(message):
     if not WEBHOOK_URL:
         print("[エラー] WEBHOOK_URL が設定されていません（GitHub Secretsを確認してね）")
@@ -65,7 +71,7 @@ def main():
     print("カレントディレクトリ:", os.getcwd())
     print("ファイル一覧:", os.listdir())
 
-    # 📅 明日の天気だけを取得
+    # 📅 日本時間で「明日」の天気を取得
     message = get_weather_summary_from_ics(ICS_FILE_PATH, days_ahead=1)
     print("送信メッセージ:", message)
     send_to_lineworks(message)
