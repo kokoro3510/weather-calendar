@@ -21,14 +21,14 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests chardet  # chardetもインストール
+          pip install requests chardet
 
       - name: Configure Git identity
         run: |
           git config --global user.name "kokoro3510"
           git config --global user.email "yanguadaruta@gmail.com"
 
-      - name: Run the weather script
+      - name: Run the weather script (.ics生成)
         run: |
           python weather_converter.py
 
@@ -40,6 +40,11 @@ jobs:
           else
             git commit -m "⛅ Updated weather data"
             git push
-          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🔔 Send LINE WORKS weather notification
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        run: |
+          python send_weather_notification.py
