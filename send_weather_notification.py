@@ -2,10 +2,13 @@ import os
 import requests
 from datetime import datetime, timedelta
 
-# === Webhook URL ===
-WEBHOOK_URL = "https://webhook.worksmobile.com/message/beb002e4-ab49-4146-aa76-408c56d4f4e6"
+# === Webhook URL を環境変数から取得（GitHub Secrets対応）===
+WEBHOOK_URL = os.getenv("WEBHOOK_URL")
+
+# === .icsファイルのパス ===
 ICS_FILE_PATH = "fukushima_all_day.ics"
 
+# ✅ 明日の天気を.icsファイルから抽出
 def get_tomorrow_summary_from_ics(file_path):
     try:
         with open(file_path, encoding='utf-8') as f:
@@ -38,21 +41,28 @@ def get_tomorrow_summary_from_ics(file_path):
 
     return "明日の天気情報が見つかりませんでした"
 
+# ✅ LINE WORKSのWebhookに送信（body.text形式で）
 def send_to_lineworks(message):
+    if not WEBHOOK_URL:
+        print("[エラー] WEBHOOK_URLが設定されていません（GitHub Secretsを確認）")
+        return
     if message is None:
         print("[送信スキップ] メッセージがNoneでした")
         return
+
     headers = {
         "Content-Type": "application/json"
     }
     payload = {
         "body": {
-            "text": message  # ← ここが超・最重要！！！
+            "text": message
         }
     }
+
     response = requests.post(WEBHOOK_URL, json=payload, headers=headers)
     print("通知結果:", response.status_code, response.text)
 
+# ✅ 実行メイン
 def main():
     print("カレントディレクトリ:", os.getcwd())
     print("ファイル一覧:", os.listdir())
