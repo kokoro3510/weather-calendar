@@ -2,14 +2,12 @@ import os
 import requests
 from datetime import datetime, timedelta
 
-# === Webhook URL を環境変数から取得（GitHub Secrets対応）===
+# === Webhook URL（GitHub Secretsから）===
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
-
-# === .icsファイルのパス ===
 ICS_FILE_PATH = "fukushima_all_day.ics"
 
-# ✅ 明日の天気を.icsファイルから抽出
-def get_tomorrow_summary_from_ics(file_path):
+# ✅ 指定した日付（今日 or 明日）の天気を抽出
+def get_weather_summary_from_ics(file_path, days_ahead=1):
     try:
         with open(file_path, encoding='utf-8') as f:
             lines = f.readlines()
@@ -17,7 +15,7 @@ def get_tomorrow_summary_from_ics(file_path):
         print("[エラー] .icsファイルが見つかりませんでした:", file_path)
         return None
 
-    tomorrow = (datetime.now() + timedelta(days=1)).strftime('%Y%m%d')
+    target_date = (datetime.now() + timedelta(days=days_ahead)).strftime('%Y%m%d')
     summary = None
     inside_event = False
     date_found = False
@@ -30,24 +28,25 @@ def get_tomorrow_summary_from_ics(file_path):
             date_found = False
         elif line.startswith("DTSTART;VALUE=DATE:") and inside_event:
             date = line.split(":")[1]
-            if date == tomorrow:
+            if date == target_date:
                 date_found = True
         elif line.startswith("SUMMARY:") and inside_event:
             summary = line[8:]
         elif line.startswith("END:VEVENT") and inside_event:
             if date_found and summary:
-                return f"明日の天気は「{summary}」です！"
+                label = "明日" if days_ahead == 1 else "今日"
+                return f"{label}の天気は「{summary}」です！"
             inside_event = False
 
-    return "明日の天気情報が見つかりませんでした"
+    return f"{'明日' if days_ahead == 1 else '今日'}の天気情報が見つかりませんでした"
 
-# ✅ LINE WORKSのWebhookに送信（body.text形式で）
+# ✅ LINE WORKS Webhook に送信
 def send_to_lineworks(message):
     if not WEBHOOK_URL:
-        print("[エラー] WEBHOOK_URLが設定されていません（GitHub Secretsを確認）")
+        print("[エラー] WEBHOOK_URL が設定されていません")
         return
     if message is None:
-        print("[送信スキップ] メッセージがNoneでした")
+        print("[送信スキップ] メッセージが None でした")
         return
 
     headers = {
@@ -58,7 +57,6 @@ def send_to_lineworks(message):
             "text": message
         }
     }
-
     response = requests.post(WEBHOOK_URL, json=payload, headers=headers)
     print("通知結果:", response.status_code, response.text)
 
@@ -66,7 +64,9 @@ def send_to_lineworks(message):
 def main():
     print("カレントディレクトリ:", os.getcwd())
     print("ファイル一覧:", os.listdir())
-    message = get_tomorrow_summary_from_ics(ICS_FILE_PATH)
+
+    # 🔥 明日の天気を通知！
+    message = get_weather_summary_from_ics(ICS_FILE_PATH, days_ahead=1)
     print("送信メッセージ:", message)
     send_to_lineworks(message)
 
