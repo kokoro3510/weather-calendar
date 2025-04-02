@@ -2,8 +2,7 @@ name: Weather ICS Auto Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # 毎日0時（日本時間9時）に実行
-    - cron: '0 9 * * *'   # 毎日9時（日本時間18時）に実行
+    - cron: '0 8 * * *'   # 毎日8時（UTC）＝日本時間17時に実行
   workflow_dispatch:       # 手動実行もOK
 
 jobs:
@@ -44,7 +43,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Wait a moment before notification  # ← ここが今回追加したステップ！
+      - name: Wait a moment before notification
         run: sleep 3
 
       - name: 🔔 Send LINE WORKS weather notification
