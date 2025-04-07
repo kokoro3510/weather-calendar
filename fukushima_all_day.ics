@@ -7,39 +7,32 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20250406
-DESCRIPTION:天気はくもり後一時雨でしょう。
-DTSTART;VALUE=DATE:20250406
-DTEND;VALUE=DATE:20250407
-SUMMARY:☁ くもり後一時雨
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250407
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は18℃、最低気温は8℃でしょう。
+DESCRIPTION:天気はくもり時々晴れでしょう。
 DTSTART;VALUE=DATE:20250407
 DTEND;VALUE=DATE:20250408
-SUMMARY:☀ くもり時々晴れ 18℃/8℃
+SUMMARY:☀ くもり時々晴れ
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250408
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は22℃、最低気温は8℃でしょう。
+DESCRIPTION:天気は晴れ後くもり、降水確率は30%、最高気温は20℃、最低気温は8℃でしょう。
 DTSTART;VALUE=DATE:20250408
 DTEND;VALUE=DATE:20250409
-SUMMARY:☀ 晴れ時々くもり 22℃/8℃
+SUMMARY:☀ 晴れ後くもり 20℃/8℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250409
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は21℃、最低気温は9℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は19℃、最低気温は8℃でしょう。
 DTSTART;VALUE=DATE:20250409
 DTEND;VALUE=DATE:20250410
-SUMMARY:☀ 晴れ時々くもり 21℃/9℃
+SUMMARY:☀ 晴れ時々くもり 19℃/8℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250410
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は20℃、最低気温は8℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は21℃、最低気温は7℃でしょう。
 DTSTART;VALUE=DATE:20250410
 DTEND;VALUE=DATE:20250411
-SUMMARY:☁ くもり 20℃/8℃
+SUMMARY:☀ くもり時々晴れ 21℃/7℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250411
@@ -50,10 +43,17 @@ SUMMARY:☁ くもり一時雨 18℃/10℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250412
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は20℃、最低気温は9℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は21℃、最低気温は10℃でしょう。
 DTSTART;VALUE=DATE:20250412
 DTEND;VALUE=DATE:20250413
-SUMMARY:☀ くもり時々晴れ 20℃/9℃
+SUMMARY:☁ くもり 21℃/10℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20250413
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は21℃、最低気温は9℃でしょう。
+DTSTART;VALUE=DATE:20250413
+DTEND;VALUE=DATE:20250414
+SUMMARY:☁ くもり 21℃/9℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-04-06T08:38:59.423924
+X-GENERATED:2025-04-07T08:46:59.820007
