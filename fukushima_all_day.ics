@@ -7,32 +7,25 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20250417
-DESCRIPTION:天気は晴れ後時々くもりでしょう。
-DTSTART;VALUE=DATE:20250417
-DTEND;VALUE=DATE:20250418
-SUMMARY:☀ 晴れ後時々くもり
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250418
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は27℃、最低気温は11℃でしょう。
+DESCRIPTION:天気は晴れ時々くもりでしょう。
 DTSTART;VALUE=DATE:20250418
 DTEND;VALUE=DATE:20250419
-SUMMARY:☀ くもり時々晴れ 27℃/11℃
+SUMMARY:☀ 晴れ時々くもり
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250419
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は22℃、最低気温は13℃でしょう。
+DESCRIPTION:天気はくもり後晴れ、降水確率は40%、最高気温は25℃、最低気温は15℃でしょう。
 DTSTART;VALUE=DATE:20250419
 DTEND;VALUE=DATE:20250420
-SUMMARY:☀ くもり時々晴れ 22℃/13℃
+SUMMARY:☀ くもり後晴れ 25℃/15℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250420
-DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は21℃、最低気温は11℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は23℃、最低気温は13℃でしょう。
 DTSTART;VALUE=DATE:20250420
 DTEND;VALUE=DATE:20250421
-SUMMARY:☁ くもり一時雨 21℃/11℃
+SUMMARY:☁ くもり 23℃/13℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250421
@@ -43,17 +36,24 @@ SUMMARY:☁ くもり一時雨 18℃/11℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250422
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は22℃、最低気温は9℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は22℃、最低気温は8℃でしょう。
 DTSTART;VALUE=DATE:20250422
 DTEND;VALUE=DATE:20250423
-SUMMARY:☀ 晴れ時々くもり 22℃/9℃
+SUMMARY:☀ 晴れ時々くもり 22℃/8℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250423
-DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は21℃、最低気温は11℃でしょう。
+DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は22℃、最低気温は11℃でしょう。
 DTSTART;VALUE=DATE:20250423
 DTEND;VALUE=DATE:20250424
-SUMMARY:☁ くもり一時雨 21℃/11℃
+SUMMARY:☁ くもり一時雨 22℃/11℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20250424
+DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は21℃、最低気温は12℃でしょう。
+DTSTART;VALUE=DATE:20250424
+DTEND;VALUE=DATE:20250425
+SUMMARY:☁ くもり一時雨 21℃/12℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-04-17T08:46:30.740057
+X-GENERATED:2025-04-18T08:42:55.664436
