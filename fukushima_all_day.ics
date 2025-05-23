@@ -7,46 +7,39 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20250522
-DESCRIPTION:天気はくもり時々雨でしょう。
-DTSTART;VALUE=DATE:20250522
-DTEND;VALUE=DATE:20250523
-SUMMARY:☁ くもり時々雨
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250523
-DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は23℃、最低気温は13℃でしょう。
+DESCRIPTION:天気は晴れ時々くもりでしょう。
 DTSTART;VALUE=DATE:20250523
 DTEND;VALUE=DATE:20250524
-SUMMARY:☀ 晴れ時々くもり 23℃/13℃
+SUMMARY:☀ 晴れ時々くもり
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250524
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は22℃、最低気温は12℃でしょう。
+DESCRIPTION:天気はくもり後一時雨、降水確率は50%、最高気温は21℃、最低気温は12℃でしょう。
 DTSTART;VALUE=DATE:20250524
 DTEND;VALUE=DATE:20250525
-SUMMARY:☁ くもり 22℃/12℃
+SUMMARY:☁ くもり後一時雨 21℃/12℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250525
-DESCRIPTION:天気はくもり一時雨、降水確率は60%、最高気温は19℃、最低気温は12℃でしょう。
+DESCRIPTION:天気はくもり一時雨、降水確率は70%、最高気温は18℃、最低気温は12℃でしょう。
 DTSTART;VALUE=DATE:20250525
 DTEND;VALUE=DATE:20250526
-SUMMARY:☁ くもり一時雨 19℃/12℃
+SUMMARY:☁ くもり一時雨 18℃/12℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250526
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は21℃、最低気温は13℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は22℃、最低気温は14℃でしょう。
 DTSTART;VALUE=DATE:20250526
 DTEND;VALUE=DATE:20250527
-SUMMARY:☀ くもり時々晴れ 21℃/13℃
+SUMMARY:☀ くもり時々晴れ 22℃/14℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250527
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は22℃、最低気温は12℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は22℃、最低気温は12℃でしょう。
 DTSTART;VALUE=DATE:20250527
 DTEND;VALUE=DATE:20250528
-SUMMARY:☁ くもり 22℃/12℃
+SUMMARY:☀ くもり時々晴れ 22℃/12℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250528
@@ -54,6 +47,13 @@ DESCRIPTION:天気はくもり、降水確率は40%、最高気温は22℃、最
 DTSTART;VALUE=DATE:20250528
 DTEND;VALUE=DATE:20250529
 SUMMARY:☁ くもり 22℃/13℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20250529
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は25℃、最低気温は14℃でしょう。
+DTSTART;VALUE=DATE:20250529
+DTEND;VALUE=DATE:20250530
+SUMMARY:☀ くもり時々晴れ 25℃/14℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-05-22T08:21:46.633394
+X-GENERATED:2025-05-23T08:21:58.807075
