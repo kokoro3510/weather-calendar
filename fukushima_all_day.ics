@@ -7,18 +7,11 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20250624
-DESCRIPTION:天気はくもり時々雨でしょう。
-DTSTART;VALUE=DATE:20250624
-DTEND;VALUE=DATE:20250625
-SUMMARY:☁ くもり時々雨
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250625
-DESCRIPTION:天気はくもり時々雨、降水確率は80%、最高気温は30℃、最低気温は23℃でしょう。
+DESCRIPTION:天気は雨でしょう。
 DTSTART;VALUE=DATE:20250625
 DTEND;VALUE=DATE:20250626
-SUMMARY:☁ くもり時々雨 30℃/23℃
+SUMMARY:☔ 雨
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250626
@@ -29,10 +22,10 @@ SUMMARY:☁ くもり時々雨 29℃/24℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250627
-DESCRIPTION:天気はくもり一時雨、降水確率は60%、最高気温は29℃、最低気温は23℃でしょう。
+DESCRIPTION:天気はくもり一時雨、降水確率は60%、最高気温は31℃、最低気温は23℃でしょう。
 DTSTART;VALUE=DATE:20250627
 DTEND;VALUE=DATE:20250628
-SUMMARY:☁ くもり一時雨 29℃/23℃
+SUMMARY:☁ くもり一時雨 31℃/23℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250628
@@ -43,17 +36,24 @@ SUMMARY:☀ くもり時々晴れ 31℃/22℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250629
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は32℃、最低気温は22℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は32℃、最低気温は20℃でしょう。
 DTSTART;VALUE=DATE:20250629
 DTEND;VALUE=DATE:20250630
-SUMMARY:☀ くもり時々晴れ 32℃/22℃
+SUMMARY:☀ くもり時々晴れ 32℃/20℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250630
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は32℃、最低気温は22℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は33℃、最低気温は21℃でしょう。
 DTSTART;VALUE=DATE:20250630
 DTEND;VALUE=DATE:20250701
-SUMMARY:☀ くもり時々晴れ 32℃/22℃
+SUMMARY:☀ くもり時々晴れ 33℃/21℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20250701
+DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は32℃、最低気温は22℃でしょう。
+DTSTART;VALUE=DATE:20250701
+DTEND;VALUE=DATE:20250702
+SUMMARY:☁ くもり一時雨 32℃/22℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-06-24T08:23:49.665461
+X-GENERATED:2025-06-25T08:24:14.969110
