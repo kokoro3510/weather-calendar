@@ -7,46 +7,39 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20250630
+UID:masuipeo/forecast/ical/fukushima/20250701
 DESCRIPTION:天気はくもり時々晴れでしょう。
-DTSTART;VALUE=DATE:20250630
-DTEND;VALUE=DATE:20250701
+DTSTART;VALUE=DATE:20250701
+DTEND;VALUE=DATE:20250702
 SUMMARY:☀ くもり時々晴れ
 END:VEVENT
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20250701
-DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は34℃、最低気温は23℃でしょう。
-DTSTART;VALUE=DATE:20250701
-DTEND;VALUE=DATE:20250702
-SUMMARY:☁ くもり一時雨 34℃/23℃
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250702
-DESCRIPTION:天気はくもり一時雨、降水確率は60%、最高気温は31℃、最低気温は23℃でしょう。
+DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は32℃、最低気温は24℃でしょう。
 DTSTART;VALUE=DATE:20250702
 DTEND;VALUE=DATE:20250703
-SUMMARY:☁ くもり一時雨 31℃/23℃
+SUMMARY:☁ くもり一時雨 32℃/24℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250703
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は32℃、最低気温は23℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は33℃、最低気温は23℃でしょう。
 DTSTART;VALUE=DATE:20250703
 DTEND;VALUE=DATE:20250704
-SUMMARY:☁ くもり 32℃/23℃
+SUMMARY:☁ くもり 33℃/23℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250704
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は32℃、最低気温は23℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は30%、最高気温は33℃、最低気温は24℃でしょう。
 DTSTART;VALUE=DATE:20250704
 DTEND;VALUE=DATE:20250705
-SUMMARY:☁ くもり 32℃/23℃
+SUMMARY:☁ くもり 33℃/24℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250705
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は34℃、最低気温は23℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は35℃、最低気温は24℃でしょう。
 DTSTART;VALUE=DATE:20250705
 DTEND;VALUE=DATE:20250706
-SUMMARY:☀ くもり時々晴れ 34℃/23℃
+SUMMARY:☀ くもり時々晴れ 35℃/24℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250706
@@ -54,6 +47,13 @@ DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温�
 DTSTART;VALUE=DATE:20250706
 DTEND;VALUE=DATE:20250707
 SUMMARY:☀ くもり時々晴れ 34℃/24℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20250707
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は34℃、最低気温は23℃でしょう。
+DTSTART;VALUE=DATE:20250707
+DTEND;VALUE=DATE:20250708
+SUMMARY:☀ くもり時々晴れ 34℃/23℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-06-30T08:24:07.738800
+X-GENERATED:2025-07-01T08:23:24.449889
