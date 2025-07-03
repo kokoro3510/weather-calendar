@@ -7,32 +7,25 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20250702
-DESCRIPTION:天気はくもりでしょう。
-DTSTART;VALUE=DATE:20250702
-DTEND;VALUE=DATE:20250703
-SUMMARY:☁ くもり
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250703
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は34℃、最低気温は24℃でしょう。
+DESCRIPTION:天気はくもり時々晴れでしょう。
 DTSTART;VALUE=DATE:20250703
 DTEND;VALUE=DATE:20250704
-SUMMARY:☁ くもり 34℃/24℃
+SUMMARY:☀ くもり時々晴れ
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250704
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は34℃、最低気温は24℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は33℃、最低気温は24℃でしょう。
 DTSTART;VALUE=DATE:20250704
 DTEND;VALUE=DATE:20250705
-SUMMARY:☁ くもり 34℃/24℃
+SUMMARY:☁ くもり 33℃/24℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250705
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は35℃、最低気温は24℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は34℃、最低気温は25℃でしょう。
 DTSTART;VALUE=DATE:20250705
 DTEND;VALUE=DATE:20250706
-SUMMARY:☀ くもり時々晴れ 35℃/24℃
+SUMMARY:☀ くもり時々晴れ 34℃/25℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250706
@@ -43,10 +36,10 @@ SUMMARY:☀ くもり時々晴れ 34℃/24℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250707
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は34℃、最低気温は24℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は34℃、最低気温は25℃でしょう。
 DTSTART;VALUE=DATE:20250707
 DTEND;VALUE=DATE:20250708
-SUMMARY:☀ 晴れ時々くもり 34℃/24℃
+SUMMARY:☀ 晴れ時々くもり 34℃/25℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250708
@@ -54,6 +47,13 @@ DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温�
 DTSTART;VALUE=DATE:20250708
 DTEND;VALUE=DATE:20250709
 SUMMARY:☀ 晴れ時々くもり 34℃/24℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20250709
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は33℃、最低気温は24℃でしょう。
+DTSTART;VALUE=DATE:20250709
+DTEND;VALUE=DATE:20250710
+SUMMARY:☀ くもり時々晴れ 33℃/24℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-07-02T08:23:30.498676
+X-GENERATED:2025-07-03T08:22:49.643223
