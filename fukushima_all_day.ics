@@ -7,53 +7,53 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20250705
-DESCRIPTION:天気はくもり後晴れでしょう。
-DTSTART;VALUE=DATE:20250705
-DTEND;VALUE=DATE:20250706
-SUMMARY:☀ くもり後晴れ
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250706
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は34℃、最低気温は24℃でしょう。
+DESCRIPTION:天気は晴れ時々くもりでしょう。
 DTSTART;VALUE=DATE:20250706
 DTEND;VALUE=DATE:20250707
-SUMMARY:☀ くもり時々晴れ 34℃/24℃
+SUMMARY:☀ 晴れ時々くもり
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250707
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は34℃、最低気温は25℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は35℃、最低気温は24℃でしょう。
 DTSTART;VALUE=DATE:20250707
 DTEND;VALUE=DATE:20250708
-SUMMARY:☀ 晴れ時々くもり 34℃/25℃
+SUMMARY:☀ くもり時々晴れ 35℃/24℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250708
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は34℃、最低気温は25℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は33℃、最低気温は25℃でしょう。
 DTSTART;VALUE=DATE:20250708
 DTEND;VALUE=DATE:20250709
-SUMMARY:☀ くもり時々晴れ 34℃/25℃
+SUMMARY:☀ くもり時々晴れ 33℃/25℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250709
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は33℃、最低気温は25℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は34℃、最低気温は25℃でしょう。
 DTSTART;VALUE=DATE:20250709
 DTEND;VALUE=DATE:20250710
-SUMMARY:☀ くもり時々晴れ 33℃/25℃
+SUMMARY:☀ くもり時々晴れ 34℃/25℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250710
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は33℃、最低気温は25℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は34℃、最低気温は25℃でしょう。
 DTSTART;VALUE=DATE:20250710
 DTEND;VALUE=DATE:20250711
-SUMMARY:☀ くもり時々晴れ 33℃/25℃
+SUMMARY:☀ くもり時々晴れ 34℃/25℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250711
-DESCRIPTION:天気は晴れ時々くもり、降水確率は30%、最高気温は33℃、最低気温は24℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は33℃、最低気温は25℃でしょう。
 DTSTART;VALUE=DATE:20250711
 DTEND;VALUE=DATE:20250712
-SUMMARY:☀ 晴れ時々くもり 33℃/24℃
+SUMMARY:☀ くもり時々晴れ 33℃/25℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20250712
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は33℃、最低気温は24℃でしょう。
+DTSTART;VALUE=DATE:20250712
+DTEND;VALUE=DATE:20250713
+SUMMARY:☀ くもり時々晴れ 33℃/24℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-07-05T08:20:21.399818
+X-GENERATED:2025-07-06T08:20:00.541855
