@@ -7,25 +7,18 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20250712
-DESCRIPTION:天気はくもりでしょう。
-DTSTART;VALUE=DATE:20250712
-DTEND;VALUE=DATE:20250713
-SUMMARY:☁ くもり
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250713
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は32℃、最低気温は21℃でしょう。
+DESCRIPTION:天気はくもり時々晴れでしょう。
 DTSTART;VALUE=DATE:20250713
 DTEND;VALUE=DATE:20250714
-SUMMARY:☀ くもり時々晴れ 32℃/21℃
+SUMMARY:☀ くもり時々晴れ
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250714
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は33℃、最低気温は23℃でしょう。
+DESCRIPTION:天気はくもり時々雨、降水確率は80%、最高気温は29℃、最低気温は23℃でしょう。
 DTSTART;VALUE=DATE:20250714
 DTEND;VALUE=DATE:20250715
-SUMMARY:☁ くもり 33℃/23℃
+SUMMARY:☁ くもり時々雨 29℃/23℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250715
@@ -43,17 +36,24 @@ SUMMARY:☁ くもり一時雨 33℃/25℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250717
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は35℃、最低気温は25℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は34℃、最低気温は25℃でしょう。
 DTSTART;VALUE=DATE:20250717
 DTEND;VALUE=DATE:20250718
-SUMMARY:☁ くもり 35℃/25℃
+SUMMARY:☁ くもり 34℃/25℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250718
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は35℃、最低気温は25℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は36℃、最低気温は25℃でしょう。
 DTSTART;VALUE=DATE:20250718
 DTEND;VALUE=DATE:20250719
-SUMMARY:☀ くもり時々晴れ 35℃/25℃
+SUMMARY:☀ くもり時々晴れ 36℃/25℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20250719
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は36℃、最低気温は25℃でしょう。
+DTSTART;VALUE=DATE:20250719
+DTEND;VALUE=DATE:20250720
+SUMMARY:☀ くもり時々晴れ 36℃/25℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-07-12T08:20:38.964500
+X-GENERATED:2025-07-13T08:20:32.253174
