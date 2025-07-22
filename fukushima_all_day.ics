@@ -7,18 +7,11 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20250721
-DESCRIPTION:天気は晴れ後くもりでしょう。
-DTSTART;VALUE=DATE:20250721
-DTEND;VALUE=DATE:20250722
-SUMMARY:☀ 晴れ後くもり
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250722
-DESCRIPTION:天気はくもり時々晴れ、降水確率は40%、最高気温は36℃、最低気温は25℃でしょう。
+DESCRIPTION:天気は晴れ時々くもりでしょう。
 DTSTART;VALUE=DATE:20250722
 DTEND;VALUE=DATE:20250723
-SUMMARY:☀ くもり時々晴れ 36℃/25℃
+SUMMARY:☀ 晴れ時々くもり
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250723
@@ -29,31 +22,38 @@ SUMMARY:☀ 晴れ時々くもり 35℃/25℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250724
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は34℃、最低気温は24℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は35℃、最低気温は24℃でしょう。
 DTSTART;VALUE=DATE:20250724
 DTEND;VALUE=DATE:20250725
-SUMMARY:☀ 晴れ時々くもり 34℃/24℃
+SUMMARY:☀ 晴れ時々くもり 35℃/24℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250725
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は34℃、最低気温は23℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は35℃、最低気温は24℃でしょう。
 DTSTART;VALUE=DATE:20250725
 DTEND;VALUE=DATE:20250726
-SUMMARY:☀ 晴れ時々くもり 34℃/23℃
+SUMMARY:☀ 晴れ時々くもり 35℃/24℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250726
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は33℃、最低気温は24℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は34℃、最低気温は24℃でしょう。
 DTSTART;VALUE=DATE:20250726
 DTEND;VALUE=DATE:20250727
-SUMMARY:☀ 晴れ時々くもり 33℃/24℃
+SUMMARY:☀ 晴れ時々くもり 34℃/24℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250727
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は33℃、最低気温は24℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は35℃、最低気温は24℃でしょう。
 DTSTART;VALUE=DATE:20250727
 DTEND;VALUE=DATE:20250728
-SUMMARY:☀ 晴れ時々くもり 33℃/24℃
+SUMMARY:☀ 晴れ時々くもり 35℃/24℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20250728
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は35℃、最低気温は24℃でしょう。
+DTSTART;VALUE=DATE:20250728
+DTEND;VALUE=DATE:20250729
+SUMMARY:☀ 晴れ時々くもり 35℃/24℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-07-21T08:27:20.767476
+X-GENERATED:2025-07-22T08:25:33.807069
