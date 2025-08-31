@@ -7,25 +7,18 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20250830
+UID:masuipeo/forecast/ical/fukushima/20250831
 DESCRIPTION:天気は晴れ時々くもりでしょう。
-DTSTART;VALUE=DATE:20250830
-DTEND;VALUE=DATE:20250831
+DTSTART;VALUE=DATE:20250831
+DTEND;VALUE=DATE:20250901
 SUMMARY:☀ 晴れ時々くもり
 END:VEVENT
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20250831
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は33℃、最低気温は25℃でしょう。
-DTSTART;VALUE=DATE:20250831
-DTEND;VALUE=DATE:20250901
-SUMMARY:☀ くもり時々晴れ 33℃/25℃
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250901
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は35℃、最低気温は25℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は20%、最高気温は36℃、最低気温は25℃でしょう。
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20250902
-SUMMARY:☀ くもり時々晴れ 35℃/25℃
+SUMMARY:☀ くもり時々晴れ 36℃/25℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250902
@@ -36,24 +29,31 @@ SUMMARY:☁ くもり一時雨 35℃/25℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250903
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は32℃、最低気温は22℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は33℃、最低気温は23℃でしょう。
 DTSTART;VALUE=DATE:20250903
 DTEND;VALUE=DATE:20250904
-SUMMARY:☁ くもり 32℃/22℃
+SUMMARY:☁ くもり 33℃/23℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250904
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は32℃、最低気温は20℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は32℃、最低気温は22℃でしょう。
 DTSTART;VALUE=DATE:20250904
 DTEND;VALUE=DATE:20250905
-SUMMARY:☀ くもり時々晴れ 32℃/20℃
+SUMMARY:☀ くもり時々晴れ 32℃/22℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250905
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は32℃、最低気温は21℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は30℃、最低気温は23℃でしょう。
 DTSTART;VALUE=DATE:20250905
 DTEND;VALUE=DATE:20250906
-SUMMARY:☀ くもり時々晴れ 32℃/21℃
+SUMMARY:☁ くもり 30℃/23℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20250906
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は32℃、最低気温は23℃でしょう。
+DTSTART;VALUE=DATE:20250906
+DTEND;VALUE=DATE:20250907
+SUMMARY:☁ くもり 32℃/23℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-08-30T08:18:30.152337
+X-GENERATED:2025-08-31T08:18:31.243762
