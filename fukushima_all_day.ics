@@ -7,25 +7,18 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20250907
-DESCRIPTION:天気は晴れでしょう。
-DTSTART;VALUE=DATE:20250907
-DTEND;VALUE=DATE:20250908
-SUMMARY:☀ 晴れ
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250908
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は33℃、最低気温は23℃でしょう。
+DESCRIPTION:天気はくもりでしょう。
 DTSTART;VALUE=DATE:20250908
 DTEND;VALUE=DATE:20250909
-SUMMARY:☁ くもり 33℃/23℃
+SUMMARY:☁ くもり
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250909
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は31℃、最低気温は23℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は32℃、最低気温は24℃でしょう。
 DTSTART;VALUE=DATE:20250909
 DTEND;VALUE=DATE:20250910
-SUMMARY:☁ くもり 31℃/23℃
+SUMMARY:☁ くもり 32℃/24℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250910
@@ -36,24 +29,31 @@ SUMMARY:☁ くもり一時雨 29℃/22℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250911
-DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は26℃、最低気温は21℃でしょう。
+DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は25℃、最低気温は20℃でしょう。
 DTSTART;VALUE=DATE:20250911
 DTEND;VALUE=DATE:20250912
-SUMMARY:☁ くもり一時雨 26℃/21℃
+SUMMARY:☁ くもり一時雨 25℃/20℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250912
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は27℃、最低気温は21℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は27℃、最低気温は20℃でしょう。
 DTSTART;VALUE=DATE:20250912
 DTEND;VALUE=DATE:20250913
-SUMMARY:☁ くもり 27℃/21℃
+SUMMARY:☀ くもり時々晴れ 27℃/20℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20250913
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は29℃、最低気温は21℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は30℃、最低気温は21℃でしょう。
 DTSTART;VALUE=DATE:20250913
 DTEND;VALUE=DATE:20250914
-SUMMARY:☁ くもり 29℃/21℃
+SUMMARY:☁ くもり 30℃/21℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20250914
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は30℃、最低気温は22℃でしょう。
+DTSTART;VALUE=DATE:20250914
+DTEND;VALUE=DATE:20250915
+SUMMARY:☁ くもり 30℃/22℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-09-07T08:17:47.587724
+X-GENERATED:2025-09-08T08:22:48.004310
