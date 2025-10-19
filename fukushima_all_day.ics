@@ -7,53 +7,53 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20251018
-DESCRIPTION:天気は晴れ後くもりでしょう。
-DTSTART;VALUE=DATE:20251018
-DTEND;VALUE=DATE:20251019
-SUMMARY:☀ 晴れ後くもり
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251019
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は21℃、最低気温は12℃でしょう。
+DESCRIPTION:天気はくもり後時々晴れでしょう。
 DTSTART;VALUE=DATE:20251019
 DTEND;VALUE=DATE:20251020
-SUMMARY:☀ くもり時々晴れ 21℃/12℃
+SUMMARY:☀ くもり後時々晴れ
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251020
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は18℃、最低気温は11℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は20℃、最低気温は12℃でしょう。
 DTSTART;VALUE=DATE:20251020
 DTEND;VALUE=DATE:20251021
-SUMMARY:☁ くもり 18℃/11℃
+SUMMARY:☀ くもり時々晴れ 20℃/12℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251021
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は16℃、最低気温は10℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は17℃、最低気温は11℃でしょう。
 DTSTART;VALUE=DATE:20251021
 DTEND;VALUE=DATE:20251022
-SUMMARY:☁ くもり 16℃/10℃
+SUMMARY:☁ くもり 17℃/11℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251022
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は17℃、最低気温は9℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は15℃、最低気温は10℃でしょう。
 DTSTART;VALUE=DATE:20251022
 DTEND;VALUE=DATE:20251023
-SUMMARY:☀ くもり時々晴れ 17℃/9℃
+SUMMARY:☀ くもり時々晴れ 15℃/10℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251023
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は16℃、最低気温は8℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は17℃、最低気温は9℃でしょう。
 DTSTART;VALUE=DATE:20251023
 DTEND;VALUE=DATE:20251024
-SUMMARY:☀ くもり時々晴れ 16℃/8℃
+SUMMARY:☀ くもり時々晴れ 17℃/9℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251024
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は15℃、最低気温は9℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は16℃、最低気温は8℃でしょう。
 DTSTART;VALUE=DATE:20251024
 DTEND;VALUE=DATE:20251025
-SUMMARY:☀ くもり時々晴れ 15℃/9℃
+SUMMARY:☀ くもり時々晴れ 16℃/8℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20251025
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は17℃、最低気温は7℃でしょう。
+DTSTART;VALUE=DATE:20251025
+DTEND;VALUE=DATE:20251026
+SUMMARY:☀ くもり時々晴れ 17℃/7℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-10-18T08:19:30.885768
+X-GENERATED:2025-10-19T08:18:53.754753
