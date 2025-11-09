@@ -7,53 +7,53 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20251108
-DESCRIPTION:天気は晴れでしょう。
-DTSTART;VALUE=DATE:20251108
-DTEND;VALUE=DATE:20251109
-SUMMARY:☀ 晴れ
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251109
-DESCRIPTION:天気はくもり時々雨、降水確率は80%、最高気温は16℃、最低気温は7℃でしょう。
+DESCRIPTION:天気はくもり後雨でしょう。
 DTSTART;VALUE=DATE:20251109
 DTEND;VALUE=DATE:20251110
-SUMMARY:☁ くもり時々雨 16℃/7℃
+SUMMARY:☁ くもり後雨
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251110
-DESCRIPTION:天気はくもり後時々晴れ、降水確率は40%、最高気温は14℃、最低気温は7℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は20%、最高気温は14℃、最低気温は8℃でしょう。
 DTSTART;VALUE=DATE:20251110
 DTEND;VALUE=DATE:20251111
-SUMMARY:☀ くもり後時々晴れ 14℃/7℃
+SUMMARY:☀ くもり時々晴れ 14℃/8℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251111
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は13℃、最低気温は6℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は13℃、最低気温は7℃でしょう。
 DTSTART;VALUE=DATE:20251111
 DTEND;VALUE=DATE:20251112
-SUMMARY:☀ 晴れ時々くもり 13℃/6℃
+SUMMARY:☀ 晴れ時々くもり 13℃/7℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251112
-DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は14℃、最低気温は5℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は14℃、最低気温は5℃でしょう。
 DTSTART;VALUE=DATE:20251112
 DTEND;VALUE=DATE:20251113
 SUMMARY:☀ 晴れ時々くもり 14℃/5℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251113
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は16℃、最低気温は4℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は17℃、最低気温は4℃でしょう。
 DTSTART;VALUE=DATE:20251113
 DTEND;VALUE=DATE:20251114
-SUMMARY:☀ くもり時々晴れ 16℃/4℃
+SUMMARY:☀ くもり時々晴れ 17℃/4℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251114
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は13℃、最低気温は7℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は14℃、最低気温は5℃でしょう。
 DTSTART;VALUE=DATE:20251114
 DTEND;VALUE=DATE:20251115
-SUMMARY:☁ くもり 13℃/7℃
+SUMMARY:☀ 晴れ時々くもり 14℃/5℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20251115
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は14℃、最低気温は3℃でしょう。
+DTSTART;VALUE=DATE:20251115
+DTEND;VALUE=DATE:20251116
+SUMMARY:☀ 晴れ時々くもり 14℃/3℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-11-08T08:19:44.854594
+X-GENERATED:2025-11-09T08:18:54.511934
