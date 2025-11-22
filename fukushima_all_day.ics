@@ -7,53 +7,53 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20251121
-DESCRIPTION:天気は晴れ後くもりでしょう。
-DTSTART;VALUE=DATE:20251121
-DTEND;VALUE=DATE:20251122
-SUMMARY:☀ 晴れ後くもり
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251122
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は13℃、最低気温は3℃でしょう。
+DESCRIPTION:天気はくもり後晴れでしょう。
 DTSTART;VALUE=DATE:20251122
 DTEND;VALUE=DATE:20251123
-SUMMARY:☀ 晴れ時々くもり 13℃/3℃
+SUMMARY:☀ くもり後晴れ
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251123
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は17℃、最低気温は3℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は17℃、最低気温は1℃でしょう。
 DTSTART;VALUE=DATE:20251123
 DTEND;VALUE=DATE:20251124
-SUMMARY:☀ 晴れ時々くもり 17℃/3℃
+SUMMARY:☀ 晴れ時々くもり 17℃/1℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251124
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は17℃、最低気温は4℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は18℃、最低気温は4℃でしょう。
 DTSTART;VALUE=DATE:20251124
 DTEND;VALUE=DATE:20251125
-SUMMARY:☀ くもり時々晴れ 17℃/4℃
+SUMMARY:☀ くもり時々晴れ 18℃/4℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251125
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は15℃、最低気温は7℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は15℃、最低気温は6℃でしょう。
 DTSTART;VALUE=DATE:20251125
 DTEND;VALUE=DATE:20251126
-SUMMARY:☁ くもり 15℃/7℃
+SUMMARY:☁ くもり 15℃/6℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251126
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は12℃、最低気温は4℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は12℃、最低気温は5℃でしょう。
 DTSTART;VALUE=DATE:20251126
 DTEND;VALUE=DATE:20251127
-SUMMARY:☀ 晴れ時々くもり 12℃/4℃
+SUMMARY:☀ 晴れ時々くもり 12℃/5℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251127
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は13℃、最低気温は3℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は13℃、最低気温は2℃でしょう。
 DTSTART;VALUE=DATE:20251127
 DTEND;VALUE=DATE:20251128
-SUMMARY:☀ 晴れ時々くもり 13℃/3℃
+SUMMARY:☀ 晴れ時々くもり 13℃/2℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20251128
+DESCRIPTION:天気はくもり時々晴れ、降水確率は40%、最高気温は13℃、最低気温は6℃でしょう。
+DTSTART;VALUE=DATE:20251128
+DTEND;VALUE=DATE:20251129
+SUMMARY:☀ くもり時々晴れ 13℃/6℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-11-21T08:24:15.527236
+X-GENERATED:2025-11-22T08:20:42.997190
