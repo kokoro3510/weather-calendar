@@ -7,39 +7,32 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20251205
-DESCRIPTION:天気はくもり時々晴れでしょう。
-DTSTART;VALUE=DATE:20251205
-DTEND;VALUE=DATE:20251206
-SUMMARY:☀ くもり時々晴れ
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251206
-DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は10℃、最低気温は-1℃でしょう。
+DESCRIPTION:天気は晴れでしょう。
 DTSTART;VALUE=DATE:20251206
 DTEND;VALUE=DATE:20251207
-SUMMARY:☀ 晴れ時々くもり 10℃/-1℃
+SUMMARY:☀ 晴れ
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251207
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は13℃、最低気温は1℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は13℃、最低気温は0℃でしょう。
 DTSTART;VALUE=DATE:20251207
 DTEND;VALUE=DATE:20251208
-SUMMARY:☀ 晴れ時々くもり 13℃/1℃
+SUMMARY:☀ 晴れ時々くもり 13℃/0℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251208
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は13℃、最低気温は4℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は14℃、最低気温は4℃でしょう。
 DTSTART;VALUE=DATE:20251208
 DTEND;VALUE=DATE:20251209
-SUMMARY:☀ 晴れ時々くもり 13℃/4℃
+SUMMARY:☀ 晴れ時々くもり 14℃/4℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251209
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は7℃、最低気温は2℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は8℃、最低気温は2℃でしょう。
 DTSTART;VALUE=DATE:20251209
 DTEND;VALUE=DATE:20251210
-SUMMARY:☀ 晴れ時々くもり 7℃/2℃
+SUMMARY:☀ 晴れ時々くもり 8℃/2℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251210
@@ -50,10 +43,17 @@ SUMMARY:☀ 晴れ時々くもり 8℃/1℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20251211
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は10℃、最低気温は3℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は11℃、最低気温は3℃でしょう。
 DTSTART;VALUE=DATE:20251211
 DTEND;VALUE=DATE:20251212
-SUMMARY:☀ 晴れ時々くもり 10℃/3℃
+SUMMARY:☀ 晴れ時々くもり 11℃/3℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20251212
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は9℃、最低気温は2℃でしょう。
+DTSTART;VALUE=DATE:20251212
+DTEND;VALUE=DATE:20251213
+SUMMARY:☀ 晴れ時々くもり 9℃/2℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2025-12-05T08:23:56.913951
+X-GENERATED:2025-12-06T08:21:10.321012
