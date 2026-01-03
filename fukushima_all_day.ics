@@ -7,39 +7,32 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20260102
-DESCRIPTION:天気はくもり時々晴れでしょう。
-DTSTART;VALUE=DATE:20260102
-DTEND;VALUE=DATE:20260103
-SUMMARY:☀ くもり時々晴れ
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260103
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は5℃、最低気温は0℃でしょう。
+DESCRIPTION:天気はくもり後時々晴れでしょう。
 DTSTART;VALUE=DATE:20260103
 DTEND;VALUE=DATE:20260104
-SUMMARY:☀ くもり時々晴れ 5℃/0℃
+SUMMARY:☀ くもり後時々晴れ
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260104
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は6℃、最低気温は1℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は30%、最高気温は6℃、最低気温は1℃でしょう。
 DTSTART;VALUE=DATE:20260104
 DTEND;VALUE=DATE:20260105
-SUMMARY:☀ くもり時々晴れ 6℃/1℃
+SUMMARY:☁ くもり 6℃/1℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260105
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は7℃、最低気温は0℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は6℃、最低気温は0℃でしょう。
 DTSTART;VALUE=DATE:20260105
 DTEND;VALUE=DATE:20260106
-SUMMARY:☀ くもり時々晴れ 7℃/0℃
+SUMMARY:☀ くもり時々晴れ 6℃/0℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260106
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は4℃、最低気温は-1℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は5℃、最低気温は-1℃でしょう。
 DTSTART;VALUE=DATE:20260106
 DTEND;VALUE=DATE:20260107
-SUMMARY:☀ 晴れ時々くもり 4℃/-1℃
+SUMMARY:☀ 晴れ時々くもり 5℃/-1℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260107
@@ -50,10 +43,17 @@ SUMMARY:☀ くもり時々晴れ 6℃/-1℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260108
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は6℃、最低気温は0℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は6℃、最低気温は-1℃でしょう。
 DTSTART;VALUE=DATE:20260108
 DTEND;VALUE=DATE:20260109
-SUMMARY:☀ くもり時々晴れ 6℃/0℃
+SUMMARY:☀ くもり時々晴れ 6℃/-1℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20260109
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は6℃、最低気温は0℃でしょう。
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260110
+SUMMARY:☀ 晴れ時々くもり 6℃/0℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2026-01-02T08:25:30.586602
+X-GENERATED:2026-01-03T08:23:38.115423
