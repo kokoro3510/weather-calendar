@@ -7,25 +7,18 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20260202
-DESCRIPTION:天気はくもり時々晴れでしょう。
-DTSTART;VALUE=DATE:20260202
-DTEND;VALUE=DATE:20260203
-SUMMARY:☀ くもり時々晴れ
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260203
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は5℃、最低気温は-2℃でしょう。
+DESCRIPTION:天気は晴れ時々くもりでしょう。
 DTSTART;VALUE=DATE:20260203
 DTEND;VALUE=DATE:20260204
-SUMMARY:☀ 晴れ時々くもり 5℃/-2℃
+SUMMARY:☀ 晴れ時々くもり
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260204
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は9℃、最低気温は-3℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は20%、最高気温は10℃、最低気温は-4℃でしょう。
 DTSTART;VALUE=DATE:20260204
 DTEND;VALUE=DATE:20260205
-SUMMARY:☀ 晴れ時々くもり 9℃/-3℃
+SUMMARY:☀ くもり時々晴れ 10℃/-4℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260205
@@ -36,17 +29,17 @@ SUMMARY:☀ 晴れ時々くもり 11℃/0℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260206
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は8℃、最低気温は-2℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は7℃、最低気温は-3℃でしょう。
 DTSTART;VALUE=DATE:20260206
 DTEND;VALUE=DATE:20260207
-SUMMARY:☀ くもり時々晴れ 8℃/-2℃
+SUMMARY:☀ くもり時々晴れ 7℃/-3℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260207
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は4℃、最低気温は-3℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は2℃、最低気温は-4℃でしょう。
 DTSTART;VALUE=DATE:20260207
 DTEND;VALUE=DATE:20260208
-SUMMARY:☀ くもり時々晴れ 4℃/-3℃
+SUMMARY:☀ くもり時々晴れ 2℃/-4℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260208
@@ -54,6 +47,13 @@ DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温�
 DTSTART;VALUE=DATE:20260208
 DTEND;VALUE=DATE:20260209
 SUMMARY:☀ くもり時々晴れ 3℃/-4℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20260209
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は4℃、最低気温は-3℃でしょう。
+DTSTART;VALUE=DATE:20260209
+DTEND;VALUE=DATE:20260210
+SUMMARY:☀ 晴れ時々くもり 4℃/-3℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2026-02-02T08:39:11.212226
+X-GENERATED:2026-02-03T08:32:29.685624
