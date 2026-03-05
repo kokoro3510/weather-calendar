@@ -7,46 +7,39 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20260304
-DESCRIPTION:天気は雪か雨後くもりでしょう。
-DTSTART;VALUE=DATE:20260304
-DTEND;VALUE=DATE:20260305
-SUMMARY:☁ 雪か雨後くもり
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260305
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は10℃、最低気温は3℃でしょう。
+DESCRIPTION:天気は晴れ時々くもりでしょう。
 DTSTART;VALUE=DATE:20260305
 DTEND;VALUE=DATE:20260306
-SUMMARY:☀ 晴れ時々くもり 10℃/3℃
+SUMMARY:☀ 晴れ時々くもり
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260306
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は13℃、最低気温は2℃でしょう。
+DESCRIPTION:天気は晴れ後くもり、降水確率は20%、最高気温は14℃、最低気温は1℃でしょう。
 DTSTART;VALUE=DATE:20260306
 DTEND;VALUE=DATE:20260307
-SUMMARY:☀ 晴れ時々くもり 13℃/2℃
+SUMMARY:☀ 晴れ後くもり 14℃/1℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260307
-DESCRIPTION:天気はくもり一時雨か雪、降水確率は50%、最高気温は11℃、最低気温は2℃でしょう。
+DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は12℃、最低気温は3℃でしょう。
 DTSTART;VALUE=DATE:20260307
 DTEND;VALUE=DATE:20260308
-SUMMARY:☁ くもり一時雨か雪 11℃/2℃
+SUMMARY:☁ くもり一時雨 12℃/3℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260308
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は8℃、最低気温は2℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は8℃、最低気温は1℃でしょう。
 DTSTART;VALUE=DATE:20260308
 DTEND;VALUE=DATE:20260309
-SUMMARY:☀ 晴れ時々くもり 8℃/2℃
+SUMMARY:☀ 晴れ時々くもり 8℃/1℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260309
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は10℃、最低気温は1℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は9℃、最低気温は1℃でしょう。
 DTSTART;VALUE=DATE:20260309
 DTEND;VALUE=DATE:20260310
-SUMMARY:☀ 晴れ時々くもり 10℃/1℃
+SUMMARY:☀ 晴れ時々くもり 9℃/1℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260310
@@ -54,6 +47,13 @@ DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温�
 DTSTART;VALUE=DATE:20260310
 DTEND;VALUE=DATE:20260311
 SUMMARY:☀ 晴れ時々くもり 9℃/1℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20260311
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は10℃、最低気温は1℃でしょう。
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260312
+SUMMARY:☀ 晴れ時々くもり 10℃/1℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2026-03-04T08:35:33.121936
+X-GENERATED:2026-03-05T08:37:10.124866
