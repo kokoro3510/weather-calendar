@@ -7,53 +7,53 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20260307
-DESCRIPTION:天気は晴れ一時雨でしょう。
-DTSTART;VALUE=DATE:20260307
-DTEND;VALUE=DATE:20260308
-SUMMARY:☀ 晴れ一時雨
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260308
-DESCRIPTION:天気はくもり時々晴れ、降水確率は10%、最高気温は8℃、最低気温は2℃でしょう。
+DESCRIPTION:天気は晴れ時々くもりでしょう。
 DTSTART;VALUE=DATE:20260308
 DTEND;VALUE=DATE:20260309
-SUMMARY:☀ くもり時々晴れ 8℃/2℃
+SUMMARY:☀ 晴れ時々くもり
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260309
-DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は10℃、最低気温は1℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は9℃、最低気温は1℃でしょう。
 DTSTART;VALUE=DATE:20260309
 DTEND;VALUE=DATE:20260310
-SUMMARY:☀ 晴れ時々くもり 10℃/1℃
+SUMMARY:☀ 晴れ時々くもり 9℃/1℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260310
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は10℃、最低気温は1℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は9℃、最低気温は1℃でしょう。
 DTSTART;VALUE=DATE:20260310
 DTEND;VALUE=DATE:20260311
-SUMMARY:☀ 晴れ時々くもり 10℃/1℃
+SUMMARY:☀ 晴れ時々くもり 9℃/1℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260311
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は12℃、最低気温は0℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は11℃、最低気温は0℃でしょう。
 DTSTART;VALUE=DATE:20260311
 DTEND;VALUE=DATE:20260312
-SUMMARY:☀ 晴れ時々くもり 12℃/0℃
+SUMMARY:☀ 晴れ時々くもり 11℃/0℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260312
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は12℃、最低気温は1℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は11℃、最低気温は1℃でしょう。
 DTSTART;VALUE=DATE:20260312
 DTEND;VALUE=DATE:20260313
-SUMMARY:☀ くもり時々晴れ 12℃/1℃
+SUMMARY:☀ くもり時々晴れ 11℃/1℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260313
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は11℃、最低気温は2℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は11℃、最低気温は1℃でしょう。
 DTSTART;VALUE=DATE:20260313
 DTEND;VALUE=DATE:20260314
-SUMMARY:☀ くもり時々晴れ 11℃/2℃
+SUMMARY:☀ くもり時々晴れ 11℃/1℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20260314
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は13℃、最低気温は1℃でしょう。
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:☀ くもり時々晴れ 13℃/1℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2026-03-07T08:27:26.673264
+X-GENERATED:2026-03-08T08:27:31.043993
