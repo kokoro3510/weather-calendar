@@ -7,32 +7,25 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20260316
+UID:masuipeo/forecast/ical/fukushima/20260317
 DESCRIPTION:天気は晴れ時々くもりでしょう。
-DTSTART;VALUE=DATE:20260316
-DTEND;VALUE=DATE:20260317
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
 SUMMARY:☀ 晴れ時々くもり
 END:VEVENT
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20260317
-DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は13℃、最低気温は1℃でしょう。
-DTSTART;VALUE=DATE:20260317
-DTEND;VALUE=DATE:20260318
-SUMMARY:☀ 晴れ時々くもり 13℃/1℃
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260318
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は16℃、最低気温は0℃でしょう。
+DESCRIPTION:天気は晴れ後くもり、降水確率は30%、最高気温は15℃、最低気温は0℃でしょう。
 DTSTART;VALUE=DATE:20260318
 DTEND;VALUE=DATE:20260319
-SUMMARY:☁ くもり 16℃/0℃
+SUMMARY:☀ 晴れ後くもり 15℃/0℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260319
-DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は14℃、最低気温は3℃でしょう。
+DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は15℃、最低気温は3℃でしょう。
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-SUMMARY:☁ くもり一時雨 14℃/3℃
+SUMMARY:☁ くもり一時雨 15℃/3℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260320
@@ -43,17 +36,24 @@ SUMMARY:☁ くもり 15℃/2℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260321
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は16℃、最低気温は2℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は16℃、最低気温は1℃でしょう。
 DTSTART;VALUE=DATE:20260321
 DTEND;VALUE=DATE:20260322
-SUMMARY:☀ 晴れ時々くもり 16℃/2℃
+SUMMARY:☀ 晴れ時々くもり 16℃/1℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260322
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は16℃、最低気温は3℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は17℃、最低気温は2℃でしょう。
 DTSTART;VALUE=DATE:20260322
 DTEND;VALUE=DATE:20260323
-SUMMARY:☀ くもり時々晴れ 16℃/3℃
+SUMMARY:☀ くもり時々晴れ 17℃/2℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20260323
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は16℃、最低気温は4℃でしょう。
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260324
+SUMMARY:☁ くもり 16℃/4℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2026-03-16T08:52:53.142190
+X-GENERATED:2026-03-17T08:50:57.975621
