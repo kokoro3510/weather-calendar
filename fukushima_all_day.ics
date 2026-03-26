@@ -7,39 +7,32 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20260325
-DESCRIPTION:天気はくもり時々晴れでしょう。
-DTSTART;VALUE=DATE:20260325
-DTEND;VALUE=DATE:20260326
-SUMMARY:☀ くもり時々晴れ
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260326
-DESCRIPTION:天気はくもり時々雨、降水確率は80%、最高気温は14℃、最低気温は7℃でしょう。
+DESCRIPTION:天気は雨でしょう。
 DTSTART;VALUE=DATE:20260326
 DTEND;VALUE=DATE:20260327
-SUMMARY:☁ くもり時々雨 14℃/7℃
+SUMMARY:☔ 雨
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260327
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は18℃、最低気温は6℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は15℃、最低気温は5℃でしょう。
 DTSTART;VALUE=DATE:20260327
 DTEND;VALUE=DATE:20260328
-SUMMARY:☁ くもり 18℃/6℃
+SUMMARY:☀ くもり時々晴れ 15℃/5℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260328
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は18℃、最低気温は6℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は18℃、最低気温は5℃でしょう。
 DTSTART;VALUE=DATE:20260328
 DTEND;VALUE=DATE:20260329
-SUMMARY:☁ くもり 18℃/6℃
+SUMMARY:☁ くもり 18℃/5℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260329
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は18℃、最低気温は6℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は19℃、最低気温は6℃でしょう。
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
-SUMMARY:☀ くもり時々晴れ 18℃/6℃
+SUMMARY:☀ くもり時々晴れ 19℃/6℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260330
@@ -50,10 +43,17 @@ SUMMARY:☀ くもり時々晴れ 20℃/6℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260331
-DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は18℃、最低気温は8℃でしょう。
+DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は18℃、最低気温は9℃でしょう。
 DTSTART;VALUE=DATE:20260331
 DTEND;VALUE=DATE:20260401
-SUMMARY:☁ くもり一時雨 18℃/8℃
+SUMMARY:☁ くもり一時雨 18℃/9℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20260401
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は17℃、最低気温は6℃でしょう。
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+SUMMARY:☁ くもり 17℃/6℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2026-03-25T08:47:16.821532
+X-GENERATED:2026-03-26T08:51:17.670190
