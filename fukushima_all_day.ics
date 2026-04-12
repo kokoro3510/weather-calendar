@@ -7,53 +7,53 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20260411
-DESCRIPTION:天気は晴れ時々くもりでしょう。
-DTSTART;VALUE=DATE:20260411
-DTEND;VALUE=DATE:20260412
-SUMMARY:☀ 晴れ時々くもり
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260412
-DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は19℃、最低気温は6℃でしょう。
+DESCRIPTION:天気は晴れでしょう。
 DTSTART;VALUE=DATE:20260412
 DTEND;VALUE=DATE:20260413
-SUMMARY:☀ 晴れ時々くもり 19℃/6℃
+SUMMARY:☀ 晴れ
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260413
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は26℃、最低気温は6℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は26℃、最低気温は5℃でしょう。
 DTSTART;VALUE=DATE:20260413
 DTEND;VALUE=DATE:20260414
-SUMMARY:☀ 晴れ時々くもり 26℃/6℃
+SUMMARY:☀ 晴れ時々くもり 26℃/5℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260414
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は18℃、最低気温は8℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は21℃、最低気温は7℃でしょう。
 DTSTART;VALUE=DATE:20260414
 DTEND;VALUE=DATE:20260415
-SUMMARY:☁ くもり 18℃/8℃
+SUMMARY:☀ 晴れ時々くもり 21℃/7℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260415
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は16℃、最低気温は7℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は18℃、最低気温は7℃でしょう。
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
-SUMMARY:☁ くもり 16℃/7℃
+SUMMARY:☁ くもり 18℃/7℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260416
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は20℃、最低気温は6℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は19℃、最低気温は7℃でしょう。
 DTSTART;VALUE=DATE:20260416
 DTEND;VALUE=DATE:20260417
-SUMMARY:☀ くもり時々晴れ 20℃/6℃
+SUMMARY:☀ くもり時々晴れ 19℃/7℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260417
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は21℃、最低気温は7℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は22℃、最低気温は8℃でしょう。
 DTSTART;VALUE=DATE:20260417
 DTEND;VALUE=DATE:20260418
-SUMMARY:☀ くもり時々晴れ 21℃/7℃
+SUMMARY:☀ くもり時々晴れ 22℃/8℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20260418
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は23℃、最低気温は10℃でしょう。
+DTSTART;VALUE=DATE:20260418
+DTEND;VALUE=DATE:20260419
+SUMMARY:☁ くもり 23℃/10℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2026-04-11T08:38:38.829977
+X-GENERATED:2026-04-12T08:43:15.758703
