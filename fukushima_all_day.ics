@@ -7,53 +7,53 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20260521
-DESCRIPTION:天気は雨でしょう。
-DTSTART;VALUE=DATE:20260521
-DTEND;VALUE=DATE:20260522
-SUMMARY:☔ 雨
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260522
-DESCRIPTION:天気は雨後くもり、降水確率は60%、最高気温は14℃、最低気温は9℃でしょう。
+DESCRIPTION:天気は雨後くもりでしょう。
 DTSTART;VALUE=DATE:20260522
 DTEND;VALUE=DATE:20260523
-SUMMARY:☁ 雨後くもり 14℃/9℃
+SUMMARY:☁ 雨後くもり
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260523
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は21℃、最低気温は9℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は20%、最高気温は20℃、最低気温は8℃でしょう。
 DTSTART;VALUE=DATE:20260523
 DTEND;VALUE=DATE:20260524
-SUMMARY:☀ くもり時々晴れ 21℃/9℃
+SUMMARY:☀ くもり時々晴れ 20℃/8℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260524
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は25℃、最低気温は12℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は24℃、最低気温は12℃でしょう。
 DTSTART;VALUE=DATE:20260524
 DTEND;VALUE=DATE:20260525
-SUMMARY:☁ くもり 25℃/12℃
+SUMMARY:☁ くもり 24℃/12℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260525
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は29℃、最低気温は16℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は29℃、最低気温は16℃でしょう。
 DTSTART;VALUE=DATE:20260525
 DTEND;VALUE=DATE:20260526
 SUMMARY:☀ 晴れ時々くもり 29℃/16℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260526
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は30℃、最低気温は16℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は28℃、最低気温は17℃でしょう。
 DTSTART;VALUE=DATE:20260526
 DTEND;VALUE=DATE:20260527
-SUMMARY:☀ くもり時々晴れ 30℃/16℃
+SUMMARY:☀ くもり時々晴れ 28℃/17℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260527
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は29℃、最低気温は18℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は27℃、最低気温は17℃でしょう。
 DTSTART;VALUE=DATE:20260527
 DTEND;VALUE=DATE:20260528
-SUMMARY:☁ くもり 29℃/18℃
+SUMMARY:☁ くもり 27℃/17℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20260528
+DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は27℃、最低気温は17℃でしょう。
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+SUMMARY:☁ くもり一時雨 27℃/17℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2026-05-20T10:47:07.344953
+X-GENERATED:2026-05-21T11:19:09.229962
