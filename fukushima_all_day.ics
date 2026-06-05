@@ -7,52 +7,52 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20260605
+UID:masuipeo/forecast/ical/fukushima/20260606
 DESCRIPTION:天気はくもりでしょう。
-DTSTART;VALUE=DATE:20260605
-DTEND;VALUE=DATE:20260606
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
 SUMMARY:☁ くもり
 END:VEVENT
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20260606
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は25℃、最低気温は14℃でしょう。
-DTSTART;VALUE=DATE:20260606
-DTEND;VALUE=DATE:20260607
-SUMMARY:☁ くもり 25℃/14℃
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260607
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は27℃、最低気温は16℃でしょう。
+DESCRIPTION:天気はくもり後一時雨、降水確率は60%、最高気温は25℃、最低気温は16℃でしょう。
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
-SUMMARY:☁ くもり 27℃/16℃
+SUMMARY:☁ くもり後一時雨 25℃/16℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260608
-DESCRIPTION:天気はくもり一時雨、降水確率は60%、最高気温は22℃、最低気温は16℃でしょう。
+DESCRIPTION:天気はくもり一時雨、降水確率は80%、最高気温は23℃、最低気温は17℃でしょう。
 DTSTART;VALUE=DATE:20260608
 DTEND;VALUE=DATE:20260609
-SUMMARY:☁ くもり一時雨 22℃/16℃
+SUMMARY:☁ くもり一時雨 23℃/17℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260609
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は25℃、最低気温は15℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は25℃、最低気温は16℃でしょう。
 DTSTART;VALUE=DATE:20260609
 DTEND;VALUE=DATE:20260610
-SUMMARY:☁ くもり 25℃/15℃
+SUMMARY:☁ くもり 25℃/16℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260610
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は26℃、最低気温は14℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は26℃、最低気温は15℃でしょう。
 DTSTART;VALUE=DATE:20260610
 DTEND;VALUE=DATE:20260611
-SUMMARY:☀ くもり時々晴れ 26℃/14℃
+SUMMARY:☀ くもり時々晴れ 26℃/15℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260611
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は27℃、最低気温は14℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は26℃、最低気温は15℃でしょう。
 DTSTART;VALUE=DATE:20260611
 DTEND;VALUE=DATE:20260612
+SUMMARY:☀ くもり時々晴れ 26℃/15℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20260612
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は27℃、最低気温は14℃でしょう。
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
 SUMMARY:☀ くもり時々晴れ 27℃/14℃
 END:VEVENT
 BEGIN:VTIMEZONE
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2026-06-04T10:58:00.237590
+X-GENERATED:2026-06-05T11:25:09.218297
