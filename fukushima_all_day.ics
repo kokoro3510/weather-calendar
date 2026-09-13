@@ -7,39 +7,32 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20260913
-DESCRIPTION:天気はくもりでしょう。
-DTSTART;VALUE=DATE:20260913
-DTEND;VALUE=DATE:20260914
-SUMMARY:☁ くもり
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260914
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は31℃、最低気温は22℃でしょう。
+DESCRIPTION:天気はくもり後雨でしょう。
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
-SUMMARY:☁ くもり 31℃/22℃
+SUMMARY:☁ くもり後雨
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260915
-DESCRIPTION:天気はくもり時々雨、降水確率は80%、最高気温は25℃、最低気温は20℃でしょう。
+DESCRIPTION:天気は雨時々止む、降水確率は90%、最高気温は22℃、最低気温は20℃でしょう。
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
-SUMMARY:☁ くもり時々雨 25℃/20℃
+SUMMARY:☔ 雨時々止む 22℃/20℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260916
-DESCRIPTION:天気はくもり一時雨、降水確率は60%、最高気温は24℃、最低気温は19℃でしょう。
+DESCRIPTION:天気はくもり一時雨、降水確率は60%、最高気温は23℃、最低気温は19℃でしょう。
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-SUMMARY:☁ くもり一時雨 24℃/19℃
+SUMMARY:☁ くもり一時雨 23℃/19℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260917
-DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は23℃、最低気温は18℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は23℃、最低気温は17℃でしょう。
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-SUMMARY:☁ くもり一時雨 23℃/18℃
+SUMMARY:☁ くもり 23℃/17℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260918
@@ -50,10 +43,17 @@ SUMMARY:☁ くもり 22℃/17℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20260919
-DESCRIPTION:天気はくもり、降水確率は40%、最高気温は25℃、最低気温は19℃でしょう。
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は24℃、最低気温は18℃でしょう。
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
-SUMMARY:☁ くもり 25℃/19℃
+SUMMARY:☁ くもり 24℃/18℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20260920
+DESCRIPTION:天気はくもり、降水確率は40%、最高気温は27℃、最低気温は20℃でしょう。
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:☁ くもり 27℃/20℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2026-09-12T11:57:04.309064
+X-GENERATED:2026-09-13T13:04:42.667022
