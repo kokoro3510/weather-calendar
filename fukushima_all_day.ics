@@ -7,53 +7,53 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20261103
-DESCRIPTION:天気はくもり後晴れでしょう。
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-SUMMARY:☀ くもり後晴れ
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261104
-DESCRIPTION:天気はくもり時々晴れ、降水確率は20%、最高気温は18℃、最低気温は5℃でしょう。
+DESCRIPTION:天気は晴れ時々くもりでしょう。
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
-SUMMARY:☀ くもり時々晴れ 18℃/5℃
+SUMMARY:☀ 晴れ時々くもり
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261105
-DESCRIPTION:天気はくもり時々雨、降水確率は70%、最高気温は15℃、最低気温は10℃でしょう。
+DESCRIPTION:天気はくもり時々雨、降水確率は80%、最高気温は17℃、最低気温は11℃でしょう。
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-SUMMARY:☁ くもり時々雨 15℃/10℃
+SUMMARY:☁ くもり時々雨 17℃/11℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261106
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は19℃、最低気温は12℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は19℃、最低気温は11℃でしょう。
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
-SUMMARY:☀ くもり時々晴れ 19℃/12℃
+SUMMARY:☀ くもり時々晴れ 19℃/11℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261107
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は13℃、最低気温は6℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は30%、最高気温は13℃、最低気温は7℃でしょう。
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
-SUMMARY:☀ 晴れ時々くもり 13℃/6℃
+SUMMARY:☀ 晴れ時々くもり 13℃/7℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261108
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は12℃、最低気温は5℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は30%、最高気温は12℃、最低気温は5℃でしょう。
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:☀ 晴れ時々くもり 12℃/5℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261109
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は12℃、最低気温は6℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は12℃、最低気温は5℃でしょう。
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
-SUMMARY:☀ くもり時々晴れ 12℃/6℃
+SUMMARY:☀ くもり時々晴れ 12℃/5℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20261110
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は11℃、最低気温は4℃でしょう。
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:☀ 晴れ時々くもり 11℃/4℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2026-11-02T17:45:36.153758
+X-GENERATED:2026-11-03T15:46:31.934980
