@@ -7,25 +7,18 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20261112
-DESCRIPTION:天気は晴れ後時々くもりでしょう。
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:☀ 晴れ後時々くもり
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261113
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は20℃、最低気温は6℃でしょう。
+DESCRIPTION:天気は晴れ時々くもりでしょう。
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-SUMMARY:☀ 晴れ時々くもり 20℃/6℃
+SUMMARY:☀ 晴れ時々くもり
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261114
-DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は19℃、最低気温は7℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は20℃、最低気温は8℃でしょう。
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-SUMMARY:☀ 晴れ時々くもり 19℃/7℃
+SUMMARY:☀ 晴れ時々くもり 20℃/8℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261115
@@ -36,10 +29,10 @@ SUMMARY:☁ くもり 17℃/9℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261116
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は15℃、最低気温は5℃でしょう。
+DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は15℃、最低気温は6℃でしょう。
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
-SUMMARY:☀ くもり時々晴れ 15℃/5℃
+SUMMARY:☀ くもり時々晴れ 15℃/6℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261117
@@ -50,10 +43,17 @@ SUMMARY:☁ くもり 12℃/4℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261118
-DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は14℃、最低気温は9℃でしょう。
+DESCRIPTION:天気はくもり一時雨、降水確率は50%、最高気温は16℃、最低気温は7℃でしょう。
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
-SUMMARY:☁ くもり一時雨 14℃/9℃
+SUMMARY:☁ くもり一時雨 16℃/7℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20261119
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は11℃、最低気温は5℃でしょう。
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:☀ 晴れ時々くもり 11℃/5℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2026-11-11T15:49:10.315181
+X-GENERATED:2026-11-12T16:31:45.384703
