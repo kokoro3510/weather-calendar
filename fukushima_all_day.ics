@@ -7,25 +7,18 @@ X-WR-CALNAME:iCal週間天気予報(福島)
 X-WR-CALDESC:気象庁が配信する週間天気予報のiCalフォーマット
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
-UID:masuipeo/forecast/ical/fukushima/20261125
-DESCRIPTION:天気はくもり後時々晴れでしょう。
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:☀ くもり後時々晴れ
-END:VEVENT
-BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261126
-DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は14℃、最低気温は3℃でしょう。
+DESCRIPTION:天気は晴れ時々くもりでしょう。
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:☀ 晴れ時々くもり 14℃/3℃
+SUMMARY:☀ 晴れ時々くもり
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261127
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は18℃、最低気温は4℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は10%、最高気温は18℃、最低気温は3℃でしょう。
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
-SUMMARY:☀ 晴れ時々くもり 18℃/4℃
+SUMMARY:☀ 晴れ時々くもり 18℃/3℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261128
@@ -36,24 +29,31 @@ SUMMARY:☁ くもり一時雨 17℃/7℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261129
-DESCRIPTION:天気はくもり時々晴れ、降水確率は30%、最高気温は11℃、最低気温は3℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は11℃、最低気温は3℃でしょう。
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-SUMMARY:☀ くもり時々晴れ 11℃/3℃
+SUMMARY:☀ 晴れ時々くもり 11℃/3℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261130
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は15℃、最低気温は1℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は16℃、最低気温は2℃でしょう。
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
-SUMMARY:☀ 晴れ時々くもり 15℃/1℃
+SUMMARY:☀ 晴れ時々くもり 16℃/2℃
 END:VEVENT
 BEGIN:VEVENT
 UID:masuipeo/forecast/ical/fukushima/20261201
-DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は15℃、最低気温は6℃でしょう。
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は17℃、最低気温は5℃でしょう。
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-SUMMARY:☀ 晴れ時々くもり 15℃/6℃
+SUMMARY:☀ 晴れ時々くもり 17℃/5℃
+END:VEVENT
+BEGIN:VEVENT
+UID:masuipeo/forecast/ical/fukushima/20261202
+DESCRIPTION:天気は晴れ時々くもり、降水確率は20%、最高気温は13℃、最低気温は6℃でしょう。
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:☀ 晴れ時々くもり 13℃/6℃
 END:VEVENT
 BEGIN:VTIMEZONE
 TZID:Asia/Tokyo
@@ -64,4 +64,4 @@ TZOFFSETTO:+0900
 END:STANDARD
 END:VTIMEZONE
 END:VCALENDAR
-X-GENERATED:2026-11-24T19:17:53.281210
+X-GENERATED:2026-11-25T18:23:15.402419
